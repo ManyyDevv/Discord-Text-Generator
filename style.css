@@ -1,0 +1,52 @@
+body {
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+  background-color: #002658; 
+  color: #ffffff;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 10px;
+  margin: 10px;
+  font-size: 1.2em;
+  border-radius: 5px;
+  border: none;
+}
+
+#result {
+  margin-top: 20px;
+  font-size: 1.5em;
+  padding: 10px;
+  background-color: #23272a;
+  border-radius: 8px;
+  min-width: 300px;
+  text-align: center;
+  word-break: break-word;
+  font-weight: bold; 
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #7289da;
+  color: white;
+}
+
+button:hover {
+  background-color: #5b6eae;
+}
+
+.imgdiscord{ 
+    height: 55px;
+}
